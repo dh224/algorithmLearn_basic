@@ -35,7 +35,7 @@ int main()
 {
     memset(h,-1,sizeof h);  
     cin >> n;
-    for(int i = 0;i < n; i++){
+    for(int i = 0;i < n - 1; i++){
         int ta,tb;
         cin >> ta >>tb;
         insert(ta,tb);
