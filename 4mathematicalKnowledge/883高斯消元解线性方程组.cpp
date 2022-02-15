@@ -55,7 +55,6 @@ int main()
     for (int i = 0; i < n; i ++ )
         for (int j = 0; j < n + 1; j ++ )
             scanf("%lf", &a[i][j]);
-
     int t = gauss();
     if (t == 2) puts("No solution");
     else if (t == 1) puts("Infinite group solutions");
